@@ -1,0 +1,21 @@
+
+//////// INSTRUCCIONES PARA COMPILAR Y EJECUTAR /////////// @davidramirezsierra
+
+>SERVIDOR:
+
+----->COMPILAR: 
+		javac InterfazChat.java ; javac InterfazChatImplServidor.java ; javac ServidorChat.java
+
+----->EJECUTAR: 
+		java -cp . -Djava.rmi.server.hostname=localhost -Djava.security.policy=rmipolicy.policy ServidorChat
+
+>CLIENTE:
+
+----->COMPILAR: 
+		javac InterfazChat.java; javac InterfazChatImplCliente.java ;javac ClienteAuxiliar.java ; javac ClienteVentana.java
+
+----->EJECUTAR:		
+		java -cp . -Djava.security.policy=rmipolicy.policy ClienteVentana
+
+
+

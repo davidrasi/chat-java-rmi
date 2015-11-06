@@ -1,0 +1,4 @@
+//Fichero rmipolicy.policy
+grant {
+	permission java.security.AllPermission;
+};
